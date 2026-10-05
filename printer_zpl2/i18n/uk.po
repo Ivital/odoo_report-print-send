@@ -1,0 +1,276 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__label_no
+msgid "# labels"
+msgstr "Кількість міток"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__action_window_id
+msgid "Action"
+msgstr "Дія"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__block_lines
+msgid "Block Lines"
+msgstr "Блокувати рядки"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__block_width
+msgid "Block Width"
+msgstr "Ширина блока"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__color
+msgid "Color"
+msgstr "Колір"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__create_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__create_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__create_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__create_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__create_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__create_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__create_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__create_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__data
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__data
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Data"
+msgstr "Дані"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__font__0
+msgid "Default"
+msgstr "За замовчуванням"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__display_name
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__display_name
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__display_name
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__display_name
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__extra
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Extra"
+msgstr "Додатково"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__font
+msgid "Font"
+msgstr "Шрифт"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Format"
+msgstr "Формат"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__height
+msgid "Height"
+msgstr "Висота"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__graphic_image
+msgid "Image"
+msgstr "Зображення"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_import_zpl2_form
+msgid "Import"
+msgstr "Імпорт"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__in_block
+msgid "In Block"
+msgstr "У блоці"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__block_justify
+msgid "Justify"
+msgstr "Вирівнювання"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__label_id
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__label_id
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__label_id
+msgid "Label"
+msgstr "Мітка"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__block_left_margin
+msgid "Left Margin"
+msgstr "Ліве поле"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__line_ids
+msgid "Line"
+msgstr "Рядок"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__mask_value
+msgid "Mask Value"
+msgstr "Значення маски"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__test_print_mode
+msgid "Mode Print"
+msgstr "Режим друку"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__model_id
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__model
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__active_model_id
+msgid "Model"
+msgstr "Модель"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__model
+msgid "Model Name"
+msgstr "Назва моделі"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__name
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__orientation
+msgid "Orientation"
+msgstr "Орієнтація"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__origin_x
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__origin_x
+msgid "Origin X"
+msgstr "Початок X"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__origin_y
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__origin_y
+msgid "Origin Y"
+msgstr "Початок Y"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__printer_id
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__printer_id
+msgid "Printer"
+msgstr "Принтер"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__record_id
+msgid "Record ID"
+msgstr "ID запису"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Repeat"
+msgstr "Повторювати"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat
+msgid "Repeatable"
+msgstr "Можна повторити"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__rounding
+msgid "Rounding"
+msgstr "Округлення"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__rows_count
+msgid "Rows Count"
+msgstr "Кількість рядків"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__sublabel_id
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__sublabel
+msgid "Sublabel"
+msgstr "Підмітка"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__text
+msgid "Text"
+msgstr "Текст"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__thickness
+msgid "Thickness"
+msgstr "Товщина"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__truncate
+msgid "Truncate"
+msgstr "Обрізати"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__component_type
+msgid "Type"
+msgstr "Тип"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__width
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__width
+msgid "Width"
+msgstr "Ширина"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__labelary_width
+msgid "Width in mm"
+msgstr "Ширина в мм"
+
+#. module: printer_zpl2
+#: model:ir.actions.act_window,name:printer_zpl2.act_open_printing_label_zpl2_view
+#: model:ir.ui.menu,name:printer_zpl2.menu_printing_label_zpl2
+msgid "ZPL II Labels"
+msgstr "Етикетки ZPL II"

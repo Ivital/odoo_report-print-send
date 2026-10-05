@@ -1,0 +1,286 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__action
+msgid "Action"
+msgstr "Дія"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_ir_actions_report__printing_action_ids
+msgid "Actions"
+msgstr "Дії"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__active
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__active
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__active
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__address
+msgid "Address"
+msgstr "Адреса"
+
+#. module: base_report_to_printer
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment_line__attachment_id
+msgid "Attachment"
+msgstr "Вкладення"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__backend
+msgid "Backend"
+msgstr "Бекенд"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_job__job_state__completed
+msgid "Completed"
+msgstr "Завершено"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment_line__copies
+msgid "Copies"
+msgstr "Копії"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer_update_wizard__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_input__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_output__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wiz_user_default_printer_selector__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment__create_uid
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer_update_wizard__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_input__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_output__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wiz_user_default_printer_selector__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment__create_date
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__default
+msgid "Default"
+msgstr "За замовчуванням"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer_update_wizard__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_input__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_output__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wiz_user_default_printer_selector__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment__display_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_printer__status__error
+msgid "Error"
+msgstr "Помилка"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__job_id_cups
+msgid "Job ID"
+msgstr "ID завдання"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__job_ids
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
+msgid "Jobs"
+msgstr "Завдання"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__location
+msgid "Location"
+msgstr "Розташування"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__model
+msgid "Model"
+msgstr "Модель"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__multi_thread
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__multi_thread
+msgid "Multi Thread"
+msgstr "Багатопотоковий"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray__name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_input__name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_output__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_ir_actions_report__printer_output_tray_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__printer_output_tray_id
+msgid "Output Bin"
+msgstr "Вихідний контейнер"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_ir_actions_report__printer_input_tray_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__printer_input_tray_id
+msgid "Paper Source"
+msgstr "Джерело паперу"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__password
+msgid "Password"
+msgstr "Пароль"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_job__job_state__pending
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__port
+msgid "Port"
+msgstr "Порт"
+
+#. module: base_report_to_printer
+#. odoo-javascript
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.act_report_xml_view
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.wizard_print_attachment_form
+msgid "Print"
+msgstr "Друк"
+
+#. module: base_report_to_printer
+#: model:ir.actions.act_window,name:base_report_to_printer.action_wizard_print_attachment
+#: model:ir.ui.menu,name:base_report_to_printer.menu_action_wizard_print_attachment
+msgid "Print Attachments"
+msgstr "Друк вкладень"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__printer_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__printer_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray__printer_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_input__printer_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_output__printer_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment__printer_id
+msgid "Printer"
+msgstr "Принтер"
+
+#. module: base_report_to_printer
+#: model:ir.ui.menu,name:base_report_to_printer.printing_printer_menu
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_search
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_server_view_form
+msgid "Printers"
+msgstr "Принтери"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_printer__status__printing
+#: model:ir.ui.menu,name:base_report_to_printer.printing_menu
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.view_users_form
+msgid "Printing"
+msgstr "Друк"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__report_id
+msgid "Report"
+msgstr "Звіт"
+
+#. module: base_report_to_printer
+#: model:ir.ui.menu,name:base_report_to_printer.printing_report_xml_action_menu
+msgid "Reports"
+msgstr "Звіти"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__server_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__server_id
+msgid "Server"
+msgstr "Сервер"
+
+#. module: base_report_to_printer
+#: model:ir.actions.act_window,name:base_report_to_printer.printing_server_action
+#: model:ir.ui.menu,name:base_report_to_printer.printing_server_menu
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_server_view_search
+msgid "Servers"
+msgstr "Сервери"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__job_state
+msgid "State"
+msgstr "Стан"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__status
+msgid "Status"
+msgstr "Статус"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__system_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray__system_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_input__system_name
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray_output__system_name
+msgid "System Name"
+msgstr "Системна назва"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__action_type
+msgid "Type"
+msgstr "Тип"
+
+#. module: base_report_to_printer
+#: model:ir.actions.act_window,name:base_report_to_printer.action_printer_update_wizard
+#: model:ir.ui.menu,name:base_report_to_printer.menu_printer_update_wizard
+#: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
+msgid "Update Printers from CUPS"
+msgstr "Оновити принтери з CUPS"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_res_users
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__user_id
+#: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__user
+msgid "User"
+msgstr "Користувач"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment_line__wizard_id
+msgid "Wizard"
+msgstr "Майстер"
