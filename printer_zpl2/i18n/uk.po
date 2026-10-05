@@ -950,3 +950,27 @@ msgstr ""
 #: model:ir.model,name:printer_zpl2.model_printing_label_zpl2_component
 msgid "ZPL II Label Component"
 msgstr "Компонент етикетки ZPL II"
+
+#. module: printer_zpl2
+#. odoo-python
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
+msgid "Error with Labelary API. %s"
+msgstr "Помилка API Labelary. %s"
+
+#. module: printer_zpl2
+#. odoo-python
+#: code:addons/printer_zpl2/wizard/wizard_import_zpl2.py:0
+msgid "Import %s"
+msgstr "Імпортувати %s"
+
+#. module: printer_zpl2
+#. odoo-python
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
+msgid "This label cannot be used on {model}"
+msgstr "Цю мітку не можна використовувати для {model}"
+
+#. module: printer_zpl2
+#. odoo-python
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
+msgid "You can not create recursive labels."
+msgstr "Не можна створювати рекурсивні мітки."

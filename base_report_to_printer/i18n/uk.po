@@ -890,3 +890,85 @@ msgstr ""
 #: model:ir.model,name:base_report_to_printer.model_wiz_user_default_printer_selector
 msgid "Wizard to select user printer"
 msgstr "Майстер вибору принтера користувача"
+
+#. module: base_report_to_printer
+#. odoo-javascript
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+msgid "Could not sent to printer!"
+msgstr "Не вдалося надіслати на принтер!"
+
+#. module: base_report_to_printer
+#. odoo-python
+#: code:addons/base_report_to_printer/models/printing_server.py:0
+msgid ""
+"Failed to connect to the CUPS server on %(address)s:%(port)s. Check that the"
+" CUPS server is running and that you can reach it from the Odoo server."
+msgstr ""
+"Не вдалося підключитися до сервера CUPS за адресою %(address)s:%(port)s. "
+"Перевірте, що сервер CUPS працює та доступний із сервера Odoo."
+
+#. module: base_report_to_printer
+#. odoo-python
+#: code:addons/base_report_to_printer/wizards/print_attachment_report.py:0
+msgid ""
+"Following attachments could not be printed:\n"
+"\n"
+"%s"
+msgstr ""
+"Не вдалося надрукувати такі вкладення:\n"
+"\n"
+"%s"
+
+#. module: base_report_to_printer
+#. odoo-javascript
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+msgid "Issue on"
+msgstr "Проблема з"
+
+#. module: base_report_to_printer
+#. odoo-python
+#: code:addons/base_report_to_printer/models/ir_actions_report.py:0
+msgid "No printer configured to print this report."
+msgstr "Не налаштовано принтер для друку цього звіту."
+
+#. module: base_report_to_printer
+#. odoo-javascript
+#: code:addons/base_report_to_printer/static/src/xml/systray_printer_selector.xml:0
+msgid "Select user printer"
+msgstr "Виберіть принтер користувача"
+
+#. module: base_report_to_printer
+#. odoo-python
+#: code:addons/base_report_to_printer/models/printing_printer.py:0
+msgid "Server is required for printers using the Cups backend."
+msgstr "Для принтерів із бекендом CUPS потрібен сервер."
+
+#. module: base_report_to_printer
+#. odoo-javascript
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+msgid "Successfully sent to printer!"
+msgstr "Успішно надіслано на принтер!"
+
+#. module: base_report_to_printer
+#. odoo-javascript
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+msgid "The report"
+msgstr "Звіт"
+
+#. module: base_report_to_printer
+#. odoo-python
+#: code:addons/base_report_to_printer/models/ir_actions_report.py:0
+msgid "This report type (%s) is not supported by direct printing!"
+msgstr "Цей тип звіту (%s) не підтримується прямим друком!"
+
+#. module: base_report_to_printer
+#. odoo-javascript
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+msgid "couldn't be printed. Click on the button below to download it"
+msgstr "не вдалося надрукувати. Натисніть кнопку нижче, щоб завантажити"
+
+#. module: base_report_to_printer
+#. odoo-python
+#: code:addons/base_report_to_printer/wizards/print_attachment_report.py:0
+msgid "{name} ({copies} copies)"
+msgstr "{name} ({copies} копій)"

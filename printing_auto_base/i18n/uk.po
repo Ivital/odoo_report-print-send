@@ -156,3 +156,39 @@ msgstr ""
 "крапковій нотації, починаючи з будь-якого поля запису. Наприклад, якщо ваш "
 "запис — stock.picking, до наступної складської операції можна звернутися "
 "через 'move_lines.move_dest_ids.picking_id'."
+
+#. module: printing_auto_base
+#. odoo-python
+#: code:addons/printing_auto_base/models/printing_auto.py:0
+msgid "Attachment domain is not set"
+msgstr "Домен вкладення не задано"
+
+#. module: printing_auto_base
+#. odoo-python
+#: code:addons/printing_auto_base/models/printing_auto.py:0
+msgid "No attachment was found."
+msgstr "Вкладення не знайдено."
+
+#. module: printing_auto_base
+#. odoo-python
+#: code:addons/printing_auto_base/models/printing_auto.py:0
+msgid "No printer configured to print this {}."
+msgstr "Не налаштовано принтер для друку цього {}."
+
+#. module: printing_auto_base
+#. odoo-python
+#: code:addons/printing_auto_base/models/printing_auto.py:0
+msgid "Report is not set"
+msgstr "Звіт не налаштовано"
+
+#. module: printing_auto_base
+#. odoo-python
+#: code:addons/printing_auto_base/models/printing_auto.py:0
+msgid "The Record change could not be applied because: %s"
+msgstr "Зміну запису не вдалося застосувати через: %s"
+
+#. module: printing_auto_base
+#. odoo-python
+#: code:addons/printing_auto_base/models/printing_auto_mixin.py:0
+msgid "{name}: {count} document(s) sent to printer {printer}"
+msgstr "{name}: {count} документ(ів) надіслано на принтер {printer}"
