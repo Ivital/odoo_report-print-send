@@ -108,3 +108,18 @@ msgstr "Зміна запису"
 #: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__model
 msgid "Related Document Model"
 msgstr "Модель пов'язаного документа"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__attachment_domain
+msgid "Attachment domain"
+msgstr "Домен вкладення"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__nbr_of_copies
+msgid "Number of Copies"
+msgstr "Кількість копій"
+
+#. module: printing_auto_base
+#: model:ir.model.fields.selection,name:printing_auto_base.selection__printing_auto__action_on_error__raise
+msgid "Raise an Exception"
+msgstr "Викликати виняток"

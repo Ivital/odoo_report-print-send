@@ -540,3 +540,107 @@ msgstr "Білий"
 #: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_search
 msgid "ZPL II Label"
 msgstr "Етикетка ZPL II"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "2D Barcode Arguments"
+msgstr "Аргументи 2D-штрихкоду"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Add in the 'Action' menu"
+msgstr "Додати в меню «Дія»"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__delete_component
+msgid "Delete existing components"
+msgstr "Видалити наявні компоненти"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__diagonal_orientation
+msgid "Diagonal Orientation"
+msgstr "Діагональна орієнтація"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Display an option on related documents."
+msgstr "Показувати параметр у пов’язаних документах."
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__error_correction__l
+msgid "High Density Level"
+msgstr "Високий рівень щільності"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__error_correction__q
+msgid "High Reliability Level"
+msgstr "Високий рівень надійності"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__labelary_image
+msgid "Image from Labelary"
+msgstr "Зображення з Labelary"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__interpretation_line
+msgid "Interpretation Line"
+msgstr "Рядок інтерпретації"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__interpretation_line_above
+msgid "Interpretation Line Above"
+msgstr "Рядок інтерпретації вище"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__magnification_factor
+msgid "Magnification Factor"
+msgstr "Коефіцієнт збільшення"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid ""
+"Note : It is an emulation from http://labelary.com/, the result on printer "
+"can be different."
+msgstr ""
+"Примітка: це емуляція з http://labelary.com/, результат на принтері може "
+"відрізнятися."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__only_product_barcode
+msgid "Only product barcode data"
+msgstr "Лише дані штрихкоду товару"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__orientation__b
+msgid "Read from Bottom up"
+msgstr "Читати знизу вгору"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__rectangle
+msgid "Rectangle / Line"
+msgstr "Прямокутник / Лінія"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Remove from the 'Action' menu"
+msgstr "Видалити з меню «Дія»"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Remove the contextual action."
+msgstr "Видалити контекстну дію."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__restore_saved_config
+msgid "Restore printer's configuration"
+msgstr "Відновити конфігурацію принтера"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Text Block Format"
+msgstr "Формат текстового блоку"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__error_correction__h
+msgid "Ultra-high Reliability Level"
+msgstr "Надвисокий рівень надійності"
