@@ -68,3 +68,43 @@ msgstr "Послідовність"
 #: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__printer_tray_id
 msgid "Tray"
 msgstr "Лоток"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__action_on_error
+msgid "Action on error"
+msgstr "Дія у разі помилки"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto_mixin__auto_printing_ids
+msgid "Auto Printing Configuration"
+msgstr "Конфігурація автоматичного друку"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto_mixin__printing_auto_error
+msgid "Printing error"
+msgstr "Помилка друку"
+
+#. module: printing_auto_base
+#: model:ir.model.fields.selection,name:printing_auto_base.selection__printing_auto__action_on_error__log
+msgid "Record an error"
+msgstr "Записати помилку"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__record_change
+msgid "Record change"
+msgstr "Зміна запису"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,field_description:printing_auto_base.field_printing_auto__model
+msgid "Related Document Model"
+msgstr "Модель пов'язаного документа"

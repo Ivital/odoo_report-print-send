@@ -274,3 +274,269 @@ msgstr "Ширина в мм"
 #: model:ir.ui.menu,name:printer_zpl2.menu_printing_label_zpl2
 msgid "ZPL II Labels"
 msgstr "Етикетки ZPL II"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__data_autofill
+msgid "Autofill Data"
+msgstr "Автозаповнення даних"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__bar_width_ratio
+msgid "Bar Width Ratio"
+msgstr "Співвідношення ширини штриха"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Barcode Format"
+msgstr "Формат штрихкоду"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__color__b
+msgid "Black"
+msgstr "Чорний"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__block_spaces
+msgid "Block Spaces"
+msgstr "Блокувати пробіли"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_import_zpl2_form
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_print_product_label_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__block_justify__c
+msgid "Center"
+msgstr "По центру"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__check_digits
+msgid "Check Digits"
+msgstr "Контрольні цифри"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__circle
+msgid "Circle"
+msgstr "Коло"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__columns_count
+msgid "Columns Count"
+msgstr "Кількість стовпців"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Components"
+msgstr "Компоненти"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__diagonal
+msgid "Diagonal Line"
+msgstr "Діагональна лінія"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Emulation"
+msgstr "Емуляція"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__model__2
+msgid "Enhanced"
+msgstr "Розширений"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__error_correction
+msgid "Error Correction"
+msgstr "Корекція помилок"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__graphic
+msgid "Graphic"
+msgstr "Графічний"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__labelary_height
+msgid "Height in mm"
+msgstr "Висота в мм"
+
+#. module: printer_zpl2
+#: model:ir.model,name:printer_zpl2.model_wizard_import_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Import ZPL2"
+msgstr "Імпортувати ZPL2"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__orientation__i
+msgid "Inverted"
+msgstr "Інвертовано"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__block_justify__j
+msgid "Justified"
+msgstr "По ширині"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Label Component"
+msgstr "Компонент етикетки"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__component_ids
+msgid "Label Components"
+msgstr "Компоненти етикетки"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__label_header_id
+msgid "Label Header"
+msgstr "Заголовок етикетки"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__write_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__write_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__write_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__write_uid
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__write_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__write_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_import_zpl2__write_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label__write_date
+#: model:ir.model.fields,field_description:printer_zpl2.field_wizard_print_record_label_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__block_justify__l
+msgid "Left"
+msgstr "Ліворуч"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__diagonal_orientation__l
+msgid "Left (\\)"
+msgstr "Ліворуч (\\)"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__test_labelary_mode
+msgid "Mode Labelary"
+msgstr "Режим Labelary"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__module_width
+msgid "Module Width"
+msgstr "Ширина модуля"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__orientation__n
+msgid "Normal"
+msgstr "Звичайний"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__model__1
+msgid "Original"
+msgstr "Оригінал"
+
+#. module: printer_zpl2
+#. odoo-python
+#: code:addons/printer_zpl2/models/printing_label_zpl2.py:0
+#: model:ir.actions.act_window,name:printer_zpl2.action_wizard_print_record_label_view
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_import_zpl2_form
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_print_product_label_form
+msgid "Print Label"
+msgstr "Друкувати етикетку"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Print Test"
+msgstr "Друк тесту"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2__labelary_dpmm
+msgid "Print density"
+msgstr "Щільність друку"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_wizard_print_product_label_form
+msgid "Print label"
+msgstr "Друкувати етикетку"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__component_type__qr_code
+msgid "QR Code"
+msgstr "QR-код"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__model_id
+msgid "Record's model"
+msgstr "Модель запису"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_count
+msgid "Repeat Count"
+msgstr "Кількість повторів"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_offset
+msgid "Repeat Offset"
+msgstr "Зміщення повтору"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_offset_x
+msgid "Repeat Offset X"
+msgstr "Зміщення повтору X"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__repeat_offset_y
+msgid "Repeat Offset Y"
+msgstr "Зміщення повтору Y"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__reverse_print
+msgid "Reverse Print"
+msgstr "Зворотний друк"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__block_justify__r
+msgid "Right"
+msgstr "Праворуч"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__diagonal_orientation__r
+msgid "Right (/)"
+msgstr "Праворуч (/)"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__orientation__r
+msgid "Rotated"
+msgstr "Повернуто"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,field_description:printer_zpl2.field_printing_label_zpl2_component__security_level
+msgid "Security Level"
+msgstr "Рівень безпеки"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__error_correction__m
+msgid "Standard Level"
+msgstr "Стандартний рівень"
+
+#. module: printer_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+msgid "Test Mode"
+msgstr "Тестовий режим"
+
+#. module: printer_zpl2
+#: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__color__w
+msgid "White"
+msgstr "Білий"
+
+#. module: printer_zpl2
+#: model:ir.model,name:printer_zpl2.model_printing_label_zpl2
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_form
+#: model_terms:ir.ui.view,arch_db:printer_zpl2.view_printing_label_zpl2_search
+msgid "ZPL II Label"
+msgstr "Етикетка ZPL II"
