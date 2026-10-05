@@ -123,3 +123,36 @@ msgstr "Кількість копій"
 #: model:ir.model.fields.selection,name:printing_auto_base.selection__printing_auto__action_on_error__raise
 msgid "Raise an Exception"
 msgstr "Викликати виняток"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,help:printing_auto_base.field_printing_auto__data_source
+msgid ""
+"Choose to print the result of an odoo report or a pre-existing attachment "
+"(useful for labels received from carriers that are recorded on the picking "
+"as an attachment)"
+msgstr ""
+"Виберіть, що друкувати: результат звіту Odoo або вже наявне вкладення "
+"(корисно для етикеток від перевізників, збережених у передачі як вкладення)."
+
+#. module: printing_auto_base
+#: model:ir.model.fields,help:printing_auto_base.field_printing_auto__condition
+msgid "Give a domain that must be valid for printing this"
+msgstr "Укажіть домен, який має бути чинним для друку"
+
+#. module: printing_auto_base
+#: model:ir.model,name:printing_auto_base.model_printing_auto_mixin
+msgid "Printing Auto Mixin"
+msgstr "Міксин автоматичного друку"
+
+#. module: printing_auto_base
+#: model:ir.model.fields,help:printing_auto_base.field_printing_auto__record_change
+msgid ""
+"Select on which document the report must be executed. Use a path using a "
+"dotted notation starting from any record field. For example, if your record "
+"is a stock.picking, you can access the next picking with "
+"'move_lines.move_dest_ids.picking_id'"
+msgstr ""
+"Виберіть документ, для якого має виконуватися звіт. Використовуйте шлях у "
+"крапковій нотації, починаючи з будь-якого поля запису. Наприклад, якщо ваш "
+"запис — stock.picking, до наступної складської операції можна звернутися "
+"через 'move_lines.move_dest_ids.picking_id'."

@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:server_env_printing_server.field_printing_server__server_env_defaults
 msgid "Server Env Defaults"
 msgstr "Типові значення серверного середовища"
+
+#. module: server_env_printing_server
+#: model:ir.model,name:server_env_printing_server.model_printing_server
+msgid "Printing server"
+msgstr "Сервер друку"

@@ -644,3 +644,309 @@ msgstr "Формат текстового блоку"
 #: model:ir.model.fields.selection,name:printer_zpl2.selection__printing_label_zpl2_component__error_correction__h
 msgid "Ultra-high Reliability Level"
 msgstr "Надвисокий рівень надійності"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__sublabel_id
+msgid ""
+"Another label to include into this one as a component. This allows to define"
+" reusable labels parts."
+msgstr ""
+"Інша етикетка, яку слід включити в цю як компонент. Це дає змогу визначати "
+"повторно використовувані частини етикеток."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__model
+msgid "Barcode model, used by some barcode types like QR Code."
+msgstr ""
+"Модель штрихкоду, яку використовують деякі типи штрихкодів, наприклад QR-"
+"код."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__data_autofill
+msgid "Change 'data' with dictionary of the object information."
+msgstr "Замініть 'data' словником з інформацією про об’єкт."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__interpretation_line_above
+msgid ""
+"Check if you want the interpretation line to be printed above the barcode."
+msgstr "Позначте, якщо потрібно друкувати рядок інтерпретації над штрихкодом."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__interpretation_line
+msgid "Check if you want the interpretation line to be printed."
+msgstr "Позначте, якщо потрібно друкувати рядок інтерпретації."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__check_digits
+msgid "Check if you want to compute and print the check digit."
+msgstr "Позначте, якщо потрібно обчислювати й друкувати контрольну цифру."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__truncate
+msgid "Check if you want to truncate the barcode."
+msgstr "Позначте, якщо потрібно обрізати штрихкод."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__repeat
+msgid "Check this box to repeat this component on the label."
+msgstr "Позначте, щоб повторювати цей компонент на етикетці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_justify
+msgid "Choose how the text will be justified in the block."
+msgstr "Виберіть вирівнювання тексту в блоці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__color
+msgid "Color of the line to draw."
+msgstr "Колір лінії для малювання."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__component_ids
+msgid "Components which will be printed on the label."
+msgstr "Компоненти, які буде надруковано на етикетці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__data
+msgid ""
+"Data to print on this component. Resource values can be inserted with "
+"%(object.field_name)s."
+msgstr ""
+"Дані для друку на цьому компоненті. Значення ресурсу можна вставляти через "
+"%(object.field_name)s."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__error_correction
+msgid "Error correction for some barcode types like QR Code."
+msgstr "Виправлення помилок для деяких типів штрихкодів, наприклад QR-коду."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__font
+msgid "Font to use, for text only."
+msgstr "Шрифт для використання, лише для тексту."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__height
+msgid ""
+"Height of the printed component. For a text component, height of a single "
+"character."
+msgstr ""
+"Висота друкованого компонента. Для текстового компонента — висота одного "
+"символу."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__reverse_print
+msgid ""
+"If checked, the data will be printed in the inverse color of the background."
+msgstr ""
+"Якщо позначено, дані буде надруковано інверсним кольором відносно фону."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__in_block
+msgid ""
+"If checked, the data will be restrected in a defined block on the label."
+msgstr "Якщо позначено, дані буде обмежено визначеним блоком на етикетці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__name
+msgid "Label Name."
+msgstr "Назва етикетки."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_wizard_print_record_label__label_id
+msgid "Label to print."
+msgstr "Етикетка для друку."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__label_id
+msgid "Label using this component."
+msgstr "Етикетка, що використовує цей компонент."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_left_margin
+msgid "Left margin for the second and other lines in the block."
+msgstr "Ліве поле для другого та наступних рядків у блоці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__description
+msgid "Long description for this label."
+msgstr "Розгорнутий опис цієї етикетки."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__magnification_factor
+msgid "Magnification Factor, from 1 to 10."
+msgstr "Коефіцієнт збільшення від 1 до 10."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__mask_value
+msgid "Mask Value, from 0 to 7."
+msgstr "Значення маски від 0 до 7."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__repeat_count
+msgid "Maximum count of repeats of the component."
+msgstr "Максимальна кількість повторів компонента."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_lines
+msgid "Maximum number of lines to print in the block."
+msgstr "Максимальна кількість рядків для друку в блоці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__model_id
+msgid "Model used to print this label."
+msgstr "Модель для друку цієї етикетки."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__module_width
+msgid "Module width for the barcode."
+msgstr "Ширина модуля для штрихкоду."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__name
+msgid "Name of the component."
+msgstr "Назва компонента."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__columns_count
+msgid "Number of data columns to encode."
+msgstr "Кількість стовпців даних для кодування."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__repeat_offset
+msgid "Number of elements to skip when reading a list of elements."
+msgstr "Кількість елементів, які потрібно пропустити під час читання списку."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__rows_count
+msgid "Number of rows to encode."
+msgstr "Кількість рядків для кодування."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_spaces
+msgid "Number of spaces added between lines in the block."
+msgstr "Кількість пробілів між рядками в блоці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__sequence
+msgid "Order used to print the elements."
+msgstr "Порядок друку елементів."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__orientation
+msgid "Orientation of the barcode."
+msgstr "Орієнтація штрихкоду."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__diagonal_orientation
+msgid "Orientation of the diagonal line."
+msgstr "Орієнтація діагональної лінії."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__origin_x
+msgid "Origin point of the component in the label, X coordinate."
+msgstr "Початкова точка компонента на етикетці, координата X."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__origin_y
+msgid "Origin point of the component in the label, Y coordinate."
+msgstr "Початкова точка компонента на етикетці, координата Y."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__origin_x
+msgid "Origin point of the contents in the label, X coordinate."
+msgstr "Початкова точка вмісту на етикетці, координата X."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__origin_y
+msgid "Origin point of the contents in the label, Y coordinate."
+msgstr "Початкова точка вмісту на етикетці, координата Y."
+
+#. module: printer_zpl2
+#: model:ir.model,name:printer_zpl2.model_wizard_print_record_label
+msgid "Print Record Label"
+msgstr "Друк етикетки запису"
+
+#. module: printer_zpl2
+#: model:ir.model,name:printer_zpl2.model_wizard_print_record_label_line
+msgid "Print Record Label Line"
+msgstr "Рядок друку етикетки запису"
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_wizard_import_zpl2__data
+#: model:ir.model.fields,help:printer_zpl2.field_wizard_print_record_label__printer_id
+msgid "Printer used to print the labels."
+msgstr "Принтер, що використовується для друку етикеток."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__bar_width_ratio
+msgid "Ratio between wide bar and narrow bar."
+msgstr "Співвідношення широкої та вузької смуги."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__rounding
+msgid "Rounding of the printed rectangle corners."
+msgstr "Заокруглення кутів надрукованого прямокутника."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__security_level
+msgid "Security level for error detection."
+msgstr "Рівень безпеки для виявлення помилок."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__thickness
+msgid "Thickness of the line to draw."
+msgstr "Товщина лінії для малювання."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__graphic_image
+msgid ""
+"This field holds a static image to print. If not set, the data field is "
+"evaluated."
+msgstr ""
+"Це поле містить статичне зображення для друку. Якщо не задано, обчислюється "
+"поле даних."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__component_type
+msgid "Type of content, simple text or barcode."
+msgstr "Тип вмісту: простий текст або штрихкод."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__block_width
+msgid "Width of the block."
+msgstr "Ширина блоку."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2__width
+msgid "Width of the label, will be set on the printer before printing."
+msgstr "Ширина етикетки, яка буде встановлена на принтері перед друком."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__width
+msgid ""
+"Width of the printed component. For a text component, width of a single "
+"character."
+msgstr ""
+"Ширина друкованого компонента. Для текстового компонента — ширина одного "
+"символу."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__repeat_offset_x
+msgid ""
+"X coordinate offset between each occurence of this component on the label."
+msgstr ""
+"Зміщення координати X між кожним входженням цього компонента на етикетці."
+
+#. module: printer_zpl2
+#: model:ir.model.fields,help:printer_zpl2.field_printing_label_zpl2_component__repeat_offset_y
+msgid ""
+"Y coordinate offset between each occurence of this component on the label."
+msgstr ""
+"Зміщення координати Y між кожним входженням цього компонента на етикетці."
+
+#. module: printer_zpl2
+#: model:ir.model,name:printer_zpl2.model_printing_label_zpl2_component
+msgid "ZPL II Label Component"
+msgstr "Компонент етикетки ZPL II"

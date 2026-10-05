@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:printing_auto_label_printer.field_printing_auto__is_label
 msgid "Is Label"
 msgstr "Є міткою"
+
+#. module: printing_auto_label_printer
+#: model:ir.model,name:printing_auto_label_printer.model_printing_auto
+msgid "Printing Auto"
+msgstr "Автоматичний друк"

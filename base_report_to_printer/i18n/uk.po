@@ -702,3 +702,191 @@ msgstr "Непідтримуваний формат"
 #: model:ir.actions.server,name:base_report_to_printer.ir_cron_update_printers_ir_actions_server
 msgid "Update Printers Jobs"
 msgstr "Оновити завдання принтерів"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_id_cups
+msgid "CUPS id for this job."
+msgstr "ID CUPS для цього завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_state
+msgid "Current state of the job."
+msgstr "Поточний стан завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__time_at_completed
+msgid "Date and time of completion for this job."
+msgstr "Дата й час завершення цього завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__time_at_creation
+msgid "Date and time of creation of this job."
+msgstr "Дата й час створення цього завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__time_at_processing
+msgid "Date and time of process for this job."
+msgstr "Дата й час обробки цього завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__encryption_policy
+msgid "Encryption Policy to connect to the server. Empty by default."
+msgstr ""
+"Політика шифрування для підключення до сервера. За замовчуванням порожня."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__address
+msgid "IP address or hostname of the server"
+msgstr "IP-адреса або ім’я хоста сервера"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__active
+msgid "If checked, this server is useable."
+msgstr "Якщо позначено, цей сервер можна використовувати."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__name
+msgid "Job name."
+msgstr "Назва завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_printer__job_ids
+msgid "Jobs printed on this printer."
+msgstr "Завдання, надруковані на цьому принтері."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__printer_ids
+msgid "List of printers available on this server."
+msgstr "Список принтерів, доступних на цьому сервері."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__name
+msgid "Name of the server."
+msgstr "Назва сервера."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__password
+msgid "Password to connect to the server. Empty by default."
+msgstr "Пароль для підключення до сервера. За замовчуванням порожній."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_media_progress
+msgid "Percentage of progress for this job."
+msgstr "Відсоток виконання цього завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__port
+msgid "Port of the server."
+msgstr "Порт сервера."
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_wizard_print_attachment
+msgid "Print Attachment"
+msgstr "Друк вкладення"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_wizard_print_attachment_line
+msgid "Print Attachment line"
+msgstr "Рядок друку вкладення"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_action
+msgid "Print Job Action"
+msgstr "Дія завдання друку"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_tray
+msgid "Printer Tray"
+msgstr "Лоток принтера"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_tray_input
+msgid "Printer Tray Input"
+msgstr "Вхідний лоток принтера"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_tray_output
+msgid "Printer Tray Output"
+msgstr "Вихідний лоток принтера"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__printer_id
+msgid "Printer used for this job."
+msgstr "Принтер, що використовується для цього завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_wizard_print_attachment__printer_id
+msgid "Printer used to print the attachments."
+msgstr "Принтер для друку вкладень."
+
+#. module: base_report_to_printer
+#: model:res.groups,name:base_report_to_printer.printing_group_manager
+msgid "Printing / Print Manager"
+msgstr "Друк / Менеджер друку"
+
+#. module: base_report_to_printer
+#: model:res.groups,name:base_report_to_printer.printing_group_user
+msgid "Printing / Print User"
+msgstr "Друк / Користувач друку"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_job
+msgid "Printing Job"
+msgstr "Завдання друку"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_printer_update_wizard
+msgid "Printing Printer Update Wizard"
+msgstr "Майстер оновлення принтера"
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_printing_report_xml_action
+msgid "Printing Report Printing Actions"
+msgstr "Дії друку звіту"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_state_reason
+msgid "Reason for the current job state."
+msgstr "Причина поточного стану завдання."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_printer__server_id
+msgid "Server used to access this printer."
+msgstr "Сервер, що використовується для доступу до цього принтера."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__server_id
+msgid "Server which hosts this job."
+msgstr "Сервер, на якому розміщено це завдання."
+
+#. module: base_report_to_printer
+#: model:res.groups,name:base_report_to_printer.printer_button_group
+msgid "Show printer button on navbar"
+msgstr "Показувати кнопку принтера на панелі навігації"
+
+#. module: base_report_to_printer
+#: model:ir.model.constraint,message:base_report_to_printer.constraint_printing_job_job_id_cups_unique
+msgid "The id of the job must be unique per server !"
+msgstr "ID завдання має бути унікальним для кожного сервера!"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_ir_actions_report__printing_action_ids
+msgid "This field allows configuring action and printer on a per user basis"
+msgstr ""
+"Це поле дає змогу налаштувати дію та принтер окремо для кожного користувача"
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_job__active
+msgid "Unchecked if the job is purged from CUPS."
+msgstr "Знімається, якщо завдання очищено з CUPS."
+
+#. module: base_report_to_printer
+#: model:ir.model.fields,help:base_report_to_printer.field_printing_server__user
+msgid "User name to connect to the server. Empty by default."
+msgstr ""
+"Ім’я користувача для підключення до сервера. За замовчуванням порожнє."
+
+#. module: base_report_to_printer
+#: model:ir.model,name:base_report_to_printer.model_wiz_user_default_printer_selector
+msgid "Wizard to select user printer"
+msgstr "Майстер вибору принтера користувача"
